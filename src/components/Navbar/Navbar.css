@@ -1,0 +1,36 @@
+.navbar-container{
+    position: sticky;
+    background-color: #f0f0f0; 
+    color: black;
+    height: 90px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none; 
+}
+
+
+.navbar-links{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+.navbar-links:hover{
+    color: white;
+    background-color: black;
+}
+
+.my-blog{
+    font-size: 20px;
+    margin-right: 350px;
+}
+
+.profile-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+

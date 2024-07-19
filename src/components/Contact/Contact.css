@@ -1,0 +1,65 @@
+.contact-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.contact-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2px);
+}
+
+.contact-details {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: #000;
+}
+
+.input-container {
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-box,
+.textarea-box {
+  cursor: pointer;
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-box:focus , .input-box:active{
+    outline: none;
+}
+
+.textarea-box {
+  height: 100px;
+}
+.textarea-box:focus , .textarea-box:active{
+    outline: none;
+}
+
